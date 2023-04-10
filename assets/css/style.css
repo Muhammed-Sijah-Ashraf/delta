@@ -1618,6 +1618,18 @@ footer div.footer-bottom div.menu-items a {
   #about div.about-container div.right div.about-details div.detail.middle {
     width: 50px;
   }
+  #service div.service-container {
+    gap: 25px;
+  }
+  #service div.service-container div.top {
+    gap: 10px;
+  }
+  #service div.service-container div.top h6 {
+    font-size: 12px;
+  }
+  #service div.service-container div.top h4 {
+    font-size: 20px;
+  }
   #service div.service-container ul.middle li div.image {
     width: 25px;
   }
@@ -1652,6 +1664,180 @@ footer div.footer-bottom div.menu-items a {
   }
   #contact div.contact-container div.right div.bottom form input {
     font-size: 7px;
+  }
+  #contact div.contact-container div.right div.bottom button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  #subscribe {
+    padding: 40px 0;
+  }
+  #subscribe div.subscribe-container {
+    padding: 40px 0;
+  }
+  #subscribe div.subscribe-container p {
+    font-size: 12px;
+  }
+  #subscribe div.subscribe-container h3 {
+    font-size: 15px;
+  }
+  #subscribe div.subscribe-container span {
+    font-size: 8px;
+  }
+  #subscribe div.subscribe-container div.input {
+    width: 80%;
+  }
+  #subscribe div.subscribe-container div.input input {
+    font-size: 10px;
+  }
+  #subscribe div.subscribe-container div.input button {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 320px) {
+  #spotlight div.spotlight-container div.bottom h5 {
+    font-size: 10px;
+  }
+  #about {
+    padding: 30px 0;
+  }
+  #about div.about-container {
+    gap: 10px;
+  }
+  #about div.about-container div.left {
+    gap: 10px;
+  }
+  #about div.about-container div.left h6 {
+    font-size: 8px;
+  }
+  #about div.about-container div.left h4 {
+    font-size: 9px;
+  }
+  #about div.about-container div.right {
+    gap: 0px;
+  }
+  #about div.about-container div.right p {
+    font-size: 4px;
+    margin-bottom: 20px;
+  }
+  #about div.about-container div.right ul {
+    gap: 5px;
+  }
+  #about div.about-container div.right ul li {
+    gap: 5px;
+  }
+  #about div.about-container div.right ul li div.tick {
+    width: 7px;
+  }
+  #about div.about-container div.right ul li h6 {
+    font-size: 6px;
+  }
+  #about div.about-container div.right div.about-details {
+    bottom: -125%;
+    left: -20%;
+  }
+  #about div.about-container div.right div.about-details div.detail {
+    gap: 10px;
+  }
+  #about div.about-container div.right div.about-details div.detail h3 {
+    font-size: 10px;
+  }
+  #about div.about-container div.right div.about-details div.detail p {
+    font-size: 5px;
+  }
+  #about div.about-container div.right div.about-details div.detail.middle {
+    width: 55px;
+  }
+  #service div.service-container {
+    gap: 25px;
+  }
+  #service div.service-container div.top {
+    gap: 10px;
+  }
+  #service div.service-container div.top h6 {
+    font-size: 12px;
+  }
+  #service div.service-container div.top h4 {
+    font-size: 20px;
+  }
+  #service div.service-container ul.middle li {
+    padding: 10px;
+  }
+  #service div.service-container ul.middle li div.image {
+    width: 20px;
+  }
+  #service div.service-container ul.middle li h4 {
+    font-size: 10px;
+  }
+  #service div.service-container ul.middle li p {
+    font-size: 8px;
+  }
+  #service div.service-container ul.middle li h6 {
+    font-size: 9px;
+  }
+  #service div.service-container div.bottom {
+    margin-top: 10px;
+  }
+  #service div.service-container div.bottom h5 {
+    font-size: 9px;
+  }
+  #service div.service-container div.bottom a {
+    padding: 10px 20px;
+    font-size: 9px;
+  }
+  #pricing div.pricing-container div.top {
+    gap: 10px;
+  }
+  #pricing div.pricing-container div.top h6 {
+    font-size: 12px;
+  }
+  #pricing div.pricing-container div.top h4 {
+    font-size: 15px;
+  }
+  #pricing div.pricing-container div.top div.period {
+    gap: 10px;
+  }
+  #pricing div.pricing-container div.top div.period h5 {
+    font-size: 10px;
+  }
+  #pricing div.pricing-container div.top div.period div.circle-container {
+    padding: 0 0 0 16px;
+  }
+  #pricing div.pricing-container div.top div.period h4 {
+    font-size: 10px;
+  }
+  #pricing div.pricing-container div.top div.period span {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+  #pricing div.pricing-container ul.bottom {
+    display: grid;
+    gap: 20px;
+  }
+  #contact div.contact-container div.right div.top {
+    gap: 10px;
+  }
+  #contact div.contact-container div.right div.top h6 {
+    font-size: 12px;
+  }
+  #contact div.contact-container div.right div.top h4 {
+    font-size: 18px;
+  }
+  #contact div.contact-container div.right div.middle div.contact-info div.icon {
+    width: 20px;
+  }
+  #contact div.contact-container div.right div.middle div.contact-info h6 {
+    font-size: 12px;
+  }
+  #contact div.contact-container div.right div.middle div.contact-info p {
+    font-size: 10px;
+  }
+  #contact div.contact-container div.right div.bottom form {
+    gap: 10px;
+    margin: 0 auto;
+  }
+  #contact div.contact-container div.right div.bottom form input {
+    font-size: 9px;
   }
   #contact div.contact-container div.right div.bottom button {
     padding: 10px 20px;
